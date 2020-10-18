@@ -1,2 +1,2 @@
-# mindustry-fluids
-No more liquids. Instead, fluids
+# mindustry-gas
+No more liquids. Instead, fluids.

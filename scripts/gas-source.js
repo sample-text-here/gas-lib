@@ -1,16 +1,16 @@
 const gasSource = extendContent(Block, "gas-source", {
 
-    // // override the method to build configuration
-    // buildConfiguration(tile, table) {
-    //     table.addImageButton(
-    //         Icon.arrowUpSmall,
-    //         Styles.clearTransi,
+    // override the method to build configuration
+    buildConfiguration(tile, table) {
+        table.addImageButton(
+            Icon.arrowUpSmall,
+            Styles.clearTransi,
 
-    //         // configure the tile to signal that it has been
-    //         // pressed (this sync on client to server)
-    //         run(() => tile.configure(0))
-    //     ).size(50);
-    // },
+            // configure the tile to signal that it has been
+            // pressed (this sync on client to server)
+            run(() => tile.configure(0))
+        ).size(50);
+    },
 
     // // override configure event
     // configured(tile, value) {

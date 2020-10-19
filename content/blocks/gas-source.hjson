@@ -1,12 +1,12 @@
 {
   "name": "Gas source",
   "description": "Infinitly outputs gas. Sandbox only.",
-
   "category": "turret",
   "size": 1,
-
-  // "update": true,
-  // "solid": true,
-  // "hasItems": false,
-  // "configurable": true
+  "buildVisibility": "shown",
+  "sandboxOnly":true,
+  "update": true,
+  "solid": true,
+  "hasItems": false,
+  "configurable": true
 }

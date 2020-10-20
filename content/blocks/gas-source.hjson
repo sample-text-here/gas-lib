@@ -1,12 +1,17 @@
 {
   "name": "Gas source",
   "description": "Infinitly outputs gas. Sandbox only.",
-  "category": "turret",
+  "type": "genericCrafter",
   "size": 1,
   "buildVisibility": "shown",
   "sandboxOnly":true,
   "update": true,
   "solid": true,
-  "hasItems": false,
-  "configurable": true
+  // "configurable": true,
+  "craftTime":1,
+  "outputsLiquid":true,
+  "outputLiquid":{
+    "liquid": "water"
+    "amount": 0.5
+  }
 }

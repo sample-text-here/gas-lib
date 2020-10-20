@@ -1,6 +1,14 @@
 {
-    "name": "facc",
-    "size": 2,
-    "type": "production",
-    "buildVisibility": "shown"
+  "name": "bad idea generator",
+  "description": "generates a neverending stream of bad ideas",
+  "size": 2,
+  "type": "genericCrafter",
+  "buildVisibility": "shown",
+  "alwaysDeconstruct":"true",
+  "outputItem": {"item":"wedge","amount":1},
+  "craftTime":10,
+  "update": true,
+  "solid": true,
+  "hasItems": true,
+  "configurable": false
 }

@@ -1,7 +1,7 @@
 {
   "name": "Gas source",
   "description": "Infinitly outputs gas. Sandbox only.",
-  "type": "genericCrafter",
+  "type": "",
   "size": 1,
   "buildVisibility": "shown",
   "sandboxOnly":true,
@@ -11,7 +11,7 @@
   "craftTime":1,
   "outputsLiquid":true,
   "outputLiquid":{
-    "liquid": "water"
+    "liquid": "water",
     "amount": 0.5
   }
 }
